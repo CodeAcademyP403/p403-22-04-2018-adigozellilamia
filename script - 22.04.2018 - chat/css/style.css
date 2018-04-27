@@ -1,0 +1,162 @@
+.canli-yardim{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    width: 16%;
+    height: 45px;
+    background-color: rgb(23, 185, 23);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: none;   
+}
+.container .canli-yardim i,
+.container .canli-yardim p{
+    display: inline-block;
+    padding-top: 4%;
+    padding-left: 5%;
+    color: #f3f1ec;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container .canli-yardim .full{
+    float: right;
+    padding-right: 5%;
+    padding-top: 6%;
+}
+.container .canli-yardim p{
+    text-align: center;
+}
+.content{
+    width: 850px;
+    margin: auto;
+    
+}
+.content .content-chat{
+    background-color: rgb(23, 185, 23);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #f3f1ec;
+    height: 60px;
+    line-height: 0;
+    font-size: 20px;
+}
+.content .content-chat-text{
+    height: 400px;
+    background-color: violet;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow-y: auto;
+    
+}
+
+.content .content-chat i,
+.content .content-chat p{
+    display: inline-block;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.content .content-chat .mini{
+    float: right;
+    padding-right: 3%;
+    
+}
+.content .content-chat .bin{
+    float: right;
+    padding-right: 3%;
+    display: none;
+}
+.content .content-chat-text .select{
+    background-color: slategrey;
+}
+.content .content-chat-text .chat-text{
+    padding: 2%;
+    height: 115px;
+    width: 100%;
+    position: relative;
+}
+.content .content-chat-text .chat-text:not(:last-child):after{
+    content: "";
+    background-color: #f3f1ec;
+    width: 95%;
+    height: 1px;
+    bottom: 0;
+    color: #f3f1ec;
+    position: absolute;
+    left: 20px;
+}
+.content .content-chat-text .img-text {
+    width: 90px;
+    height: 80px;
+    display: inline-block;
+    
+    background-color: #f3f1ec;
+    border-radius: 15px;
+}
+.content .content-chat-text .img-text img{
+    width: 100%;
+    height: 100%;
+}
+.content .content-chat-text .text{
+    float: left;
+    margin-left: 2%;
+}
+.content .content-chat-text .text p{
+    
+    font-size: 18px;
+    line-height: 4.5;
+    color: #f3f1ec;
+}
+.content .content-chat-text .admin .img-text{
+    float: left;
+    background-image: url("../img/admin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content .content-chat-text .user .img-text{
+    float: right;
+    background-image: url("../img/user.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content .content-chat-text .user .text{
+    display: inline-block;
+    float: right;
+    margin-right: 3%;
+}
+.content .text-input{
+    position: relative;
+    margin-top: 50px;
+    background-color: violet;
+    border-radius: 15px;
+}
+.content .text-input input{
+    width: 100%;
+    background-color: violet;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    color: #f3f1ec;
+
+}
+/* .content .text-input input placeholder{
+    color: violet;
+} */
+.content .text-input i{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 20px;
+    transform: rotate(40deg);
+    border: 1px solid rgb(23, 185, 23);
+    padding: 8px;
+    border-radius: 100%;
+    color: rgb(23, 185, 23);
+}
+input:focus{
+    outline:  none;
+    border-radius: 15px;
+    background-color: violet;
+
+}
