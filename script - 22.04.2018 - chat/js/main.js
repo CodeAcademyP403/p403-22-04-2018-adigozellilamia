@@ -4,6 +4,10 @@ var send = document.querySelector("#send");
 var bin = document.querySelector(".bin");
 var chat_text = Array.prototype.slice.call(document.querySelectorAll(".chat-text"));
 var content_chat_text = document.querySelector(".content-chat-text");
+var maxi = document.querySelector(".maxi");
+var maxi_div = document.querySelector(".content");
+var mini = document.querySelector(".mini");
+var mini_div = document.querySelector(".container");
 
 function add() {
     var trimmed_value = trim(text_input.value);
@@ -95,4 +99,15 @@ bin.onclick = function trash() {
         }
     }
     select = [];
+}
+
+maxi.onclick = function () {
+    maxi_div.style.display = "block";
+    mini_div.style.display = "none";
+
+
+}
+mini.onclick = function () {
+    mini_div.style.display = "block";
+    maxi_div.style.display = "none";
 }

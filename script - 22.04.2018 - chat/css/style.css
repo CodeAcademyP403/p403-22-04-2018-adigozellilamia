@@ -7,7 +7,7 @@
     background-color: rgb(23, 185, 23);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    display: none;   
+       
 }
 .container .canli-yardim i,
 .container .canli-yardim p{
@@ -159,4 +159,7 @@ input:focus{
     border-radius: 15px;
     background-color: violet;
 
+}
+.content{
+    display: none;
 }
